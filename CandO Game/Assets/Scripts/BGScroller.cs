@@ -15,9 +15,9 @@ public class BGScroller : MonoBehaviour
     {
         transform.position += new Vector3(-5 * Time.deltaTime, 0);
 
-        if(transform.position.x < -28)
+        if(transform.position.x < -30)
         {
-            transform.position = new Vector3(21.5f, transform.position.y);
+            transform.position = new Vector3(30f, transform.position.y);
 
         }
 
