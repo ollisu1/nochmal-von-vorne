@@ -218,6 +218,7 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
+  - component: {fileID: 519420033}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -291,6 +292,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &519420033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70bafed9c8722b44bb98ff753951a042, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RoadPrefab: {fileID: 3793178312999844447, guid: 09607c5ae6ed5ca4288d70130e773d6f, type: 3}
+  respawnTime: 2
 --- !u!1001 &606408881
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -732,6 +747,10 @@ PrefabInstance:
     - target: {fileID: 4383652265150659401, guid: 259a32c7af76ed24d92b487df73627da, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 8276444259429237366, guid: 259a32c7af76ed24d92b487df73627da, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8276444259429237366, guid: 259a32c7af76ed24d92b487df73627da, type: 3}
       propertyPath: m_SortingOrder
