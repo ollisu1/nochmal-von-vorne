@@ -12,7 +12,7 @@ public class Street : MonoBehaviour
     void Start()
     {
         rb = this.GetComponent<Rigidbody2D>();
-        rb.velocity = new Vector2(0, -speed);
+        rb.velocity = new Vector2(-speed, 0);
         screenBounds = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, Camera.main.transform.position.z));
 
     }
@@ -20,7 +20,7 @@ public class Street : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(transform.position.y < screenBounds.y - 22)
+        if(transform.position.x < screenBounds.x - 35)
         {
             Destroy(this.gameObject);
 

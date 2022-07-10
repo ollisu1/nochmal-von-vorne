@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 3793178312999844444}
   - component: {fileID: 3793178312999844445}
   - component: {fileID: 3793178312999844446}
+  - component: {fileID: 7804450832569296701}
+  - component: {fileID: -7244791243322280222}
   m_Layer: 0
   m_Name: Hindernis 2
   m_TagString: Untagged
@@ -111,3 +113,37 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 5.12, y: 3.526958}
   m_EdgeRadius: 0
+--- !u!114 &7804450832569296701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3793178312999844447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 365ca35e06ba8414383a2ff7cb0d8de4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
+--- !u!50 &-7244791243322280222
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3793178312999844447}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 6
