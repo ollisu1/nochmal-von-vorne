@@ -20,7 +20,7 @@ public class Street : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(transform.position.y < screenBounds.y)
+        if(transform.position.y < screenBounds.y - 22)
         {
             Destroy(this.gameObject);
 
