@@ -24,7 +24,7 @@ public class RoadScroller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(transform.position.x < -width)
+        if (transform.position.x < -width)
         {
             Vector2 resetPosition = new Vector2(width * 2f, 0);
             transform.position = (Vector2)transform.position + resetPosition;

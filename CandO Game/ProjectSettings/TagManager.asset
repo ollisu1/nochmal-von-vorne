@@ -6,6 +6,7 @@ TagManager:
   tags:
   - RoadBlock
   - Hinderniss
+  - Car
   layers:
   - Default
   - TransparentFX
