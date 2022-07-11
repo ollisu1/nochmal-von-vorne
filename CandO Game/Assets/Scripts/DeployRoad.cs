@@ -18,7 +18,7 @@ public class DeployRoad : MonoBehaviour
     private void spawnRoad()
     {
         GameObject a = Instantiate(RoadPrefab) as GameObject;
-        a.transform.position = new Vector2(screenBounds.x, Random.Range(-4, 4));
+        a.transform.position = new Vector2(screenBounds.x, Random.Range(-3, 3));
     }
 
     IEnumerator Road()
