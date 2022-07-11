@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -7244791243322280222}
   m_Layer: 0
   m_Name: Hindernis 2
-  m_TagString: RoadBlock
+  m_TagString: Hinderniss
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -125,7 +125,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 365ca35e06ba8414383a2ff7cb0d8de4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 7
 --- !u!50 &-7244791243322280222
 Rigidbody2D:
   serializedVersion: 4

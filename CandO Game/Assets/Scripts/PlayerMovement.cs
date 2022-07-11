@@ -12,6 +12,8 @@ public class PlayerMovement : MonoBehaviour
 
     Vector2 movment;
 
+    public GameObject Hinderniss;
+
 
 
     // Update is called once per frame
@@ -22,10 +24,13 @@ public class PlayerMovement : MonoBehaviour
 
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
+        if (collision.tag == "Hinderniss")
+        {
+            Destroy(this.gameObject);
+        }
 
-        
     }
 
     void FixedUpdate()

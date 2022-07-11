@@ -8,6 +8,7 @@ public class Street : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 screenBounds;
 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,4 +27,5 @@ public class Street : MonoBehaviour
 
         }
     }
+
 }
