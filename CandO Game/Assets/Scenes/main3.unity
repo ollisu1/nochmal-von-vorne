@@ -477,7 +477,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   useFixedUpdate: 0
   variableToChange: 0
-  changePerSecond: -1
+  changePerSecond: -0.5
   Speed: 7
 --- !u!1001 &932197939
 PrefabInstance:
@@ -600,7 +600,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   useFixedUpdate: 0
   variableToChange: 0
-  changePerSecond: -1
+  changePerSecond: -0.5
   Speed: 7
 --- !u!1001 &1284066505
 PrefabInstance:
@@ -678,7 +678,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   useFixedUpdate: 0
   variableToChange: 0
-  changePerSecond: -1
+  changePerSecond: -0.5
   Speed: 7
 --- !u!1001 &1800374475
 PrefabInstance:
@@ -693,11 +693,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1066121784802381325, guid: 3bbcedf3674a2fd4fb434d3da4fcebd7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 44.25
+      value: 47.01
       objectReference: {fileID: 0}
     - target: {fileID: 1066121784802381325, guid: 3bbcedf3674a2fd4fb434d3da4fcebd7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.01
+      value: -2.49
       objectReference: {fileID: 0}
     - target: {fileID: 1066121784802381325, guid: 3bbcedf3674a2fd4fb434d3da4fcebd7, type: 3}
       propertyPath: m_LocalPosition.z
@@ -756,7 +756,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   useFixedUpdate: 0
   variableToChange: 0
-  changePerSecond: -1
+  changePerSecond: -0.5
   Speed: 7
 --- !u!1 &2021307550 stripped
 GameObject:
@@ -777,7 +777,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   useFixedUpdate: 0
   variableToChange: 0
-  changePerSecond: -1
+  changePerSecond: -0.5
   Speed: 7
 --- !u!1001 &298368961187690301
 PrefabInstance:
@@ -788,7 +788,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 689773698, guid: 43fd8ccc657df4445beb912c57fcc9b7, type: 3}
       propertyPath: moveSpeed
-      value: 8
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 2828289578012563219, guid: 43fd8ccc657df4445beb912c57fcc9b7, type: 3}
       propertyPath: m_RootOrder
@@ -796,7 +796,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2828289578012563219, guid: 43fd8ccc657df4445beb912c57fcc9b7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9.5
+      value: -10.5
       objectReference: {fileID: 0}
     - target: {fileID: 2828289578012563219, guid: 43fd8ccc657df4445beb912c57fcc9b7, type: 3}
       propertyPath: m_LocalPosition.y

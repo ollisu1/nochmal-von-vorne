@@ -100,7 +100,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   useFixedUpdate: 0
   variableToChange: 0
-  changePerSecond: -1
+  changePerSecond: -0.5
   Speed: 7
   RoadPrefab: {fileID: 0}
 --- !u!61 &7449497665925444668
