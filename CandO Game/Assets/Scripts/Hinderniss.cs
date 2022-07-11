@@ -12,11 +12,7 @@ public class Hinderniss : MonoBehaviour
 
     public float Speed = 7f;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
+    public GameObject RoadPrefab;
 
     // Update is called once per frame
     void Update()
@@ -25,7 +21,7 @@ public class Hinderniss : MonoBehaviour
 
         if (transform.position.x < -30)
         {
-            transform.position = new Vector3(30f, transform.position.y);
+            transform.position = new Vector3(30f, Random.Range(-3, 3));
 
         }
 
@@ -45,5 +41,11 @@ public class Hinderniss : MonoBehaviour
 
         }
 
+    }
+
+    private void spawnRoad()
+    {
+        GameObject a = Instantiate(RoadPrefab) as GameObject;
+        a.transform.position = new Vector2(-30, Random.Range(-3, 3));
     }
 }
