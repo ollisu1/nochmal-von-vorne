@@ -8,12 +8,17 @@ public class Street : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 screenBounds;
 
+    public bool useFixedUpdate;
+
+    public float variableToChange;
+
+    public float changePerSecond;
 
     // Start is called before the first frame update
     void Start()
     {
         rb = this.GetComponent<Rigidbody2D>();
-        rb.velocity = new Vector2(-speed, 0);
+        rb.velocity = new Vector3(-speed, 0);
         screenBounds = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, Camera.main.transform.position.z));
 
     }
@@ -26,6 +31,22 @@ public class Street : MonoBehaviour
             Destroy(this.gameObject);
 
         }
+
+        if (!useFixedUpdate)
+        {
+            speed -= changePerSecond * Time.deltaTime;
+
+        }
+    }
+
+    private void FixedUpdate()
+    {
+        if (useFixedUpdate)
+        {
+            speed -= changePerSecond * Time.deltaTime;
+
+        }
+
     }
 
 }

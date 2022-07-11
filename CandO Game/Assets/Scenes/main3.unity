@@ -475,6 +475,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5cdf03338ae4304abadb8080e839771, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  useFixedUpdate: 0
+  variableToChange: 0
+  changePerSecond: -1
+  Speed: 7
 --- !u!1001 &932197939
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -568,6 +572,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5cdf03338ae4304abadb8080e839771, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  useFixedUpdate: 0
+  variableToChange: 0
+  changePerSecond: -1
+  Speed: 7
 --- !u!1 &1613432368 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2540119922614892940, guid: 9dcba362cd2b2134ba94d2a13a89065f, type: 3}
@@ -585,6 +593,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5cdf03338ae4304abadb8080e839771, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  useFixedUpdate: 0
+  variableToChange: 0
+  changePerSecond: -1
+  Speed: 7
 --- !u!1 &1817771533 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2540119922614892940, guid: 9dcba362cd2b2134ba94d2a13a89065f, type: 3}
@@ -602,6 +614,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5cdf03338ae4304abadb8080e839771, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  useFixedUpdate: 0
+  variableToChange: 0
+  changePerSecond: -1
+  Speed: 7
 --- !u!1 &2021307550 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2540119922614892940, guid: 9dcba362cd2b2134ba94d2a13a89065f, type: 3}
@@ -619,6 +635,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5cdf03338ae4304abadb8080e839771, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  useFixedUpdate: 0
+  variableToChange: 0
+  changePerSecond: -1
+  Speed: 7
 --- !u!1001 &298368961187690301
 PrefabInstance:
   m_ObjectHideFlags: 0

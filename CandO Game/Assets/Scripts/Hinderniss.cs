@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BGScroller : MonoBehaviour
+public class Hinderniss : MonoBehaviour
 {
     public bool useFixedUpdate;
 
@@ -15,7 +15,7 @@ public class BGScroller : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -23,7 +23,7 @@ public class BGScroller : MonoBehaviour
     {
         transform.position += new Vector3(-Speed * Time.deltaTime, 0);
 
-        if(transform.position.x < -30)
+        if (transform.position.x < -30)
         {
             transform.position = new Vector3(30f, transform.position.y);
 
