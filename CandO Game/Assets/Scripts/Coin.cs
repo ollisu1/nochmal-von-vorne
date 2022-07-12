@@ -29,8 +29,10 @@ public class Coin : MonoBehaviour
         {
             transform.position = new Vector3(30f, Random.Range(-3, 3));
 
-            if(spriteRenderer == enabled = false)
+          //  if(spriteRenderer == enabled = false)     operator fehler == oder =  auf linker Seite der Zuordnug muss variable stehen bzw Fehler bei enabled oder false 
+          //  {
 
+           // }
         }
 
         if (!useFixedUpdate)
