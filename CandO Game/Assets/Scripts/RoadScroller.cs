@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/*
 public class RoadScroller : MonoBehaviour
 {
     public BoxCollider2D collider;
@@ -9,20 +9,20 @@ public class RoadScroller : MonoBehaviour
 
     private float width;
     public float scrollSpeed = -2f;
-    // Start is called before the first frame update
-    void Start()
-    {
-        collider = GetComponent<BoxCollider2D>();
-        rb = GetComponent<Rigidbody2D>();
+     Start is called before the first frame update
+      void Start()
+      {
+    collider = GetComponent<BoxCollider2D>();
+    rb = GetComponent<Rigidbody2D>();
 
-        width = collider.size.x;
-        collider.enabled = false;
+       width = collider.size.x;
+    collider.enabled = false;
 
-        rb.velocity = new Vector2(-scrollSpeed, 0);
-    }
+    rb.velocity = new Vector2(-scrollSpeed, 0);
+}
 
-    // Update is called once per frame
-    void Update()
+Update is called once per frame
+void Update()
     {
         if (transform.position.x < -width)
         {
@@ -32,3 +32,4 @@ public class RoadScroller : MonoBehaviour
         }
     }
 }
+*/
