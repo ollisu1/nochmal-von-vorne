@@ -30,6 +30,8 @@ public class Scoretext : MonoBehaviour
         //  PlayerPrefs.Setfloat("SHOWSTARTSCORE", currentscore);
         // Debug.Log (Wert.speed);
 
+
+
         currentscore++;
     }
 }
