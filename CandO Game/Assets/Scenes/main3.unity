@@ -541,6 +541,7 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &854294204
 =======
 --- !u!1 &839485100
@@ -667,6 +668,8 @@ SpriteRenderer:
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 >>>>>>> c45c8308fb49cf625e65a4e12581256b72afcc3b
+=======
+>>>>>>> parent of a62842e (Score läuft)
 =======
 >>>>>>> parent of a62842e (Score läuft)
 =======
@@ -1019,10 +1022,13 @@ RectTransform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 1208873607}
 =======
   - {fileID: 839485101}
 >>>>>>> c45c8308fb49cf625e65a4e12581256b72afcc3b
+=======
+>>>>>>> parent of a62842e (Score läuft)
 =======
 >>>>>>> parent of a62842e (Score läuft)
 =======
