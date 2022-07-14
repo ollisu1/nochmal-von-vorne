@@ -14,7 +14,7 @@ public class PlayerMovement : MonoBehaviour
     Vector2 movment;
 
     public GameObject Hinderniss;
-
+    Scoretext Score;
 
 
     // Update is called once per frame
@@ -27,11 +27,15 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+       
+
         if (collision.tag == "Hinderniss")
         {
             Destroy(this.gameObject);
             SceneManager.LoadScene(2);
+                    
         }
+
 
     }
 
