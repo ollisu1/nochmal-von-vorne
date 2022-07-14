@@ -1382,5 +1382,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin
       objectReference: {fileID: 0}
+    - target: {fileID: 8651061354766193209, guid: 1dc0729bbd7021748a9be15d22d13d0d, type: 3}
+      propertyPath: m_TagString
+      value: Coin
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1dc0729bbd7021748a9be15d22d13d0d, type: 3}

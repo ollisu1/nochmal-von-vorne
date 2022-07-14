@@ -14,7 +14,9 @@ public class Coin : MonoBehaviour
 
     public SpriteRenderer spriteRenderer;
 
-    private void Start()
+    public bool sprite = true;
+
+    public void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
 
@@ -53,11 +55,13 @@ public class Coin : MonoBehaviour
 
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    public void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.tag == "Car")
         {
             spriteRenderer.enabled = false;
+
+            sprite = false;
 
         }
 
