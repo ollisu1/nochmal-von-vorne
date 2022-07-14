@@ -7,8 +7,8 @@ using TMPro;
 public class Scoretext : MonoBehaviour
 {
 
-     private float currentscore = 0;
-    int Highscore;
+    private float currentscore = 0;
+    public float Highscore;
 
     BGScroller Wert;
 
@@ -22,7 +22,7 @@ public class Scoretext : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+     void Update()
     {
         m_Object.text = "Score : " + currentscore + Wert;
 
@@ -33,18 +33,10 @@ public class Scoretext : MonoBehaviour
         // Debug.Log (Wert.speed);
 
         currentscore++;
-
-
+        Highscore = currentscore;
+        return;
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.tag == "Hinderniss")
-        {
-            currentscore = Highscore;
-        }
-
-    }
-
+   
   
 }
