@@ -8,6 +8,8 @@ public class Scoretext : MonoBehaviour
 {
 
      private float currentscore = 0;
+    int Highscore;
+
     BGScroller Wert;
 
     [SerializeField] TextMeshProUGUI m_Object;
@@ -32,11 +34,17 @@ public class Scoretext : MonoBehaviour
 
         currentscore++;
 
-      //  if (GetSceneAt = 1)
-      //  {
-       //     currentscore++;
-       // }
-
 
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "Hinderniss")
+        {
+            currentscore = Highscore;
+        }
+
+    }
+
+  
 }
