@@ -31,7 +31,15 @@ public class CoinValue : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(coin.sprite == false)
+        coinValue.text = "Coins : " + Value;
+
+        if (coin.sprite == false)
+        {
+            Value++;
+
+        }
+
+        if (Input.GetButtonDown("Jump"))
         {
             Value++;
 
