@@ -7,8 +7,8 @@ using TMPro;
 public class Scoretext : MonoBehaviour
 {
 
-    private float currentscore = 0;
-    public float Highscore;
+    private int currentscore = 0;
+    public static int Highscore;
 
     BGScroller Wert;
 
@@ -22,21 +22,20 @@ public class Scoretext : MonoBehaviour
     }
 
     // Update is called once per frame
-     void Update()
+    public void Update()
     {
         m_Object.text = "Score : " + currentscore + Wert;
 
-      //  Wert = GameObject.Find("BGScrollerspeed").GetComponent<BGScroller>();
-        // Wert.Speed();
-        //  currentscore = Debug.Log (Wert.Speed);                    //PlayerPrefs.GetInt("TOTALSCORE");
-        //  PlayerPrefs.Setfloat("SHOWSTARTSCORE", currentscore);
-        // Debug.Log (Wert.speed);
-
         currentscore++;
         Highscore = currentscore;
-        return;
+        
     }
 
-   
-  
+
+    public static int Endhigh()
+
+    {
+        return Highscore;
+    }
+    
 }

@@ -10,12 +10,13 @@ public class deadscore : MonoBehaviour
     [SerializeField] TextMeshProUGUI m_Object;
     public Scoretext dasScript;
 
+
     // Start is called before the first frame update
     void Start()
     {
-     //   dasScript = Component<Scoretext.Highscore>();
-       // Debug.Log(Scoretext.Update());
-        m_Object.text = "Score : " + dasScript;
+
+
+        m_Object.text = "Score : " + Scoretext.Endhigh() + dasScript;
 
     }
 
