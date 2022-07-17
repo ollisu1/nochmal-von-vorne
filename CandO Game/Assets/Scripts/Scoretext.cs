@@ -33,7 +33,6 @@ public class Scoretext : MonoBehaviour
 
 
     public static int Endhigh()
-
     {
         return Highscore;
     }
