@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 
 public class Coin : MonoBehaviour
 {
@@ -6,6 +7,7 @@ public class Coin : MonoBehaviour
 
     public SpriteRenderer spriteRenderer;
     public BoxCollider2D boxCollider;
+    public Light2D coinlight;
 
     public float variableToChange;
     public float changePerSecond;
@@ -32,6 +34,7 @@ public class Coin : MonoBehaviour
             {
                 spriteRenderer.enabled = true;
                 boxCollider.enabled = true;
+                coinlight.enabled = true;
             }
         }
 
@@ -54,10 +57,9 @@ public class Coin : MonoBehaviour
         if(collision.tag == "Car")
         {
             spriteRenderer.enabled = false;
-
             sprite = false;
-
             boxCollider.enabled = false;
+            coinlight.enabled = false;
 
             coincounter.CoinValue++;
         }
