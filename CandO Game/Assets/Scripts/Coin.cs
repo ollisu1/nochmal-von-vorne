@@ -1,24 +1,23 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Coin : MonoBehaviour
 {
-    public bool useFixedUpdate;
-
-    public float variableToChange;
-
-    public float changePerSecond;
-
-    public float Speed = 7f;
+    Coincounter coincounter;
 
     public SpriteRenderer spriteRenderer;
+    public BoxCollider2D boxCollider;
 
+    public float variableToChange;
+    public float changePerSecond;
+    public float Speed = 7f;
+
+    public bool useFixedUpdate;
     public bool sprite = true;
 
     public void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
+        coincounter = GameObject.Find("CoinCounter").GetComponent<Coincounter>();
     }
 
     void Update()
@@ -32,15 +31,14 @@ public class Coin : MonoBehaviour
             if(spriteRenderer.enabled == false)
             {
                 spriteRenderer.enabled = true;
+                boxCollider.enabled = true;
             }
         }
 
         if (!useFixedUpdate)
         {
             Speed -= changePerSecond * Time.deltaTime;
-
         }
-
     }
 
     private void FixedUpdate()
@@ -48,9 +46,7 @@ public class Coin : MonoBehaviour
         if (useFixedUpdate)
         {
             Speed -= changePerSecond * Time.deltaTime;
-
         }
-
     }
 
     public void OnTriggerEnter2D(Collider2D collision)
@@ -61,7 +57,9 @@ public class Coin : MonoBehaviour
 
             sprite = false;
 
-        }
+            boxCollider.enabled = false;
 
+            coincounter.CoinValue++;
+        }
     }
 }
