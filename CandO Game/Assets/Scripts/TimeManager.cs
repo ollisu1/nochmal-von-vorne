@@ -9,6 +9,11 @@ public class TimeManager : MonoBehaviour
 
     public bool Night;
 
+    private void Start()
+    {
+        NightOff();
+    }
+
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.T) && Night)
@@ -25,7 +30,7 @@ public class TimeManager : MonoBehaviour
 
     public void NightOn()
     {
-        Sun.intensity = 0.2f;
+        Sun.intensity = 0.15f;
         light1.enabled = true;
         light2.enabled = true;
     }
