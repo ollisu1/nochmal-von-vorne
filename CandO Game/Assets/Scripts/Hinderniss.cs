@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Hinderniss : MonoBehaviour
@@ -14,7 +12,6 @@ public class Hinderniss : MonoBehaviour
 
     public GameObject RoadPrefab;
 
-    // Update is called once per frame
     void Update()
     {
         transform.position += new Vector3(-Speed * Time.deltaTime, 0);
@@ -22,13 +19,11 @@ public class Hinderniss : MonoBehaviour
         if (transform.position.x < -30)
         {
             transform.position = new Vector3(30f, Random.Range(-3, 3));
-
         }
 
         if (!useFixedUpdate)
         {
             Speed -= changePerSecond * Time.deltaTime;
-
         }
 
     }
@@ -38,9 +33,7 @@ public class Hinderniss : MonoBehaviour
         if (useFixedUpdate)
         {
             Speed -= changePerSecond * Time.deltaTime;
-
         }
-
     }
 
     private void spawnRoad()

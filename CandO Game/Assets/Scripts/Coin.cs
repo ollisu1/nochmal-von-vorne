@@ -19,10 +19,8 @@ public class Coin : MonoBehaviour
     public void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
-
     }
 
-    // Update is called once per frame
     void Update()
     {
         transform.position += new Vector3(-Speed * Time.deltaTime, 0);
