@@ -9,6 +9,7 @@ public class Coincounter : MonoBehaviour
 
     private void Update()
     {
-        coincounterText.text = CoinValue.ToString();
+        CoinValue = PlayerPrefs.GetInt("CoinValue");
+        coincounterText.text = "Coins: " + CoinValue.ToString();
     }
 }

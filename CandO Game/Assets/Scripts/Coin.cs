@@ -61,7 +61,7 @@ public class Coin : MonoBehaviour
             boxCollider.enabled = false;
             coinlight.enabled = false;
 
-            coincounter.CoinValue++;
+            PlayerPrefs.SetInt("CoinValue", PlayerPrefs.GetInt("CoinValue") + 1);
         }
     }
 }
