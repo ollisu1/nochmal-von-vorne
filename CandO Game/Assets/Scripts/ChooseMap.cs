@@ -1,9 +1,12 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ChooseMap : MonoBehaviour
 {
     public int Map = 0;
     public int Block = 0;
+
+    public MapObject mapObject;
 
     public void Wiese()
     {
@@ -43,5 +46,16 @@ public class ChooseMap : MonoBehaviour
     public void Block3()
     {
         Block = 3;
+    }
+
+    public void StartGame()
+    {
+        SceneManager.LoadScene(2);
+    }
+
+    private void Update()
+    {
+        mapObject.Map = Map;
+        mapObject.Block = Block;
     }
 }

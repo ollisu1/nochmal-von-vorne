@@ -22,7 +22,7 @@ public class PlayerMovement : MonoBehaviour
         if (collision.tag == "Hinderniss")
         {
             Destroy(this.gameObject);
-            SceneManager.LoadScene(2);      
+            SceneManager.LoadScene(3);
         }
     }
 
