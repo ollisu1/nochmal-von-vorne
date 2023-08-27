@@ -197,7 +197,7 @@ PrefabInstance:
     - target: {fileID: 6900295155787321743, guid: 9dcba362cd2b2134ba94d2a13a89065f, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 6e29d369dcbce514caeaae2f4aae2c30, type: 3}
+      objectReference: {fileID: 21300000, guid: 79b85f3f9a285994dbe3d2cbb5453e1a, type: 3}
     - target: {fileID: 6900295155787321743, guid: 9dcba362cd2b2134ba94d2a13a89065f, type: 3}
       propertyPath: m_DrawMode
       value: 0
@@ -540,7 +540,7 @@ PrefabInstance:
     - target: {fileID: 6900295155787321743, guid: 9dcba362cd2b2134ba94d2a13a89065f, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 6e29d369dcbce514caeaae2f4aae2c30, type: 3}
+      objectReference: {fileID: 21300000, guid: 79b85f3f9a285994dbe3d2cbb5453e1a, type: 3}
     - target: {fileID: 6900295155787321743, guid: 9dcba362cd2b2134ba94d2a13a89065f, type: 3}
       propertyPath: m_DrawMode
       value: 0
@@ -621,7 +621,7 @@ PrefabInstance:
     - target: {fileID: 6900295155787321743, guid: 9dcba362cd2b2134ba94d2a13a89065f, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 6e29d369dcbce514caeaae2f4aae2c30, type: 3}
+      objectReference: {fileID: 21300000, guid: 79b85f3f9a285994dbe3d2cbb5453e1a, type: 3}
     m_RemovedComponents:
     - {fileID: 0}
     - {fileID: 0}
@@ -879,7 +879,7 @@ PrefabInstance:
     - target: {fileID: 6900295155787321743, guid: 9dcba362cd2b2134ba94d2a13a89065f, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 6e29d369dcbce514caeaae2f4aae2c30, type: 3}
+      objectReference: {fileID: 21300000, guid: 79b85f3f9a285994dbe3d2cbb5453e1a, type: 3}
     - target: {fileID: 6900295155787321743, guid: 9dcba362cd2b2134ba94d2a13a89065f, type: 3}
       propertyPath: m_DrawMode
       value: 0
@@ -1382,6 +1382,10 @@ PrefabInstance:
       value: Hindernis us Variante (2)
       objectReference: {fileID: 0}
     - target: {fileID: 3595023801745407702, guid: 3bbcedf3674a2fd4fb434d3da4fcebd7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3fcc1667f95b52f49947a83e8e18ac7e, type: 3}
+    - target: {fileID: 3595023801745407702, guid: 3bbcedf3674a2fd4fb434d3da4fcebd7, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
@@ -1786,6 +1790,10 @@ PrefabInstance:
       value: Hindernis us Variante (1)
       objectReference: {fileID: 0}
     - target: {fileID: 3595023801745407702, guid: 3bbcedf3674a2fd4fb434d3da4fcebd7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3fcc1667f95b52f49947a83e8e18ac7e, type: 3}
+    - target: {fileID: 3595023801745407702, guid: 3bbcedf3674a2fd4fb434d3da4fcebd7, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
@@ -1937,7 +1945,7 @@ PrefabInstance:
     - target: {fileID: 7631755782889833799, guid: f9bf7150292457245a28b499f19a4581, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 6e29d369dcbce514caeaae2f4aae2c30, type: 3}
+      objectReference: {fileID: 21300000, guid: 79b85f3f9a285994dbe3d2cbb5453e1a, type: 3}
     - target: {fileID: 7631755782889833799, guid: f9bf7150292457245a28b499f19a4581, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -2049,6 +2057,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hindernis us Variante
       objectReference: {fileID: 0}
+    - target: {fileID: 3595023801745407702, guid: 3bbcedf3674a2fd4fb434d3da4fcebd7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3fcc1667f95b52f49947a83e8e18ac7e, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3bbcedf3674a2fd4fb434d3da4fcebd7, type: 3}
 --- !u!212 &4307615751112793441 stripped
