@@ -50,4 +50,26 @@ public class BuyThing : MonoBehaviour
             buybtn.SetActive(false);
         }
     }
+
+    public void Block1()
+    {
+        if (price <= PlayerPrefs.GetInt("CoinValue") && PlayerPrefs.GetInt("Block") == 0)
+        {
+            PlayerPrefs.SetInt("CoinValue", PlayerPrefs.GetInt("CoinValue") - price);
+            PlayerPrefs.SetInt("Block", 1);
+            Lock.SetActive(false);
+            buybtn.SetActive(false);
+        }
+    }
+
+    public void Block2()
+    {
+        if (price <= PlayerPrefs.GetInt("CoinValue") && PlayerPrefs.GetInt("Block2") == 0)
+        {
+            PlayerPrefs.SetInt("CoinValue", PlayerPrefs.GetInt("CoinValue") - price);
+            PlayerPrefs.SetInt("Block2", 1);
+            Lock.SetActive(false);
+            buybtn.SetActive(false);
+        }
+    }
 }

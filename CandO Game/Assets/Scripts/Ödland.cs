@@ -10,6 +10,10 @@ public class Ödland : MonoBehaviour
     public GameObject btn3;
     public GameObject Lock4;
     public GameObject btn4;
+    public GameObject btn5;
+    public GameObject Lock5;
+    public GameObject btn6;
+    public GameObject Lock6;
 
     private void Start()
     {
@@ -35,6 +39,18 @@ public class Ödland : MonoBehaviour
         {
             Lock4.SetActive(false);
             btn4.SetActive(false);
+        }
+
+        if (PlayerPrefs.GetInt("Block") == 1)
+        {
+            Lock5.SetActive(false);
+            btn5.SetActive(false);
+        }
+
+        if (PlayerPrefs.GetInt("Block2") == 1)
+        {
+            Lock6.SetActive(false);
+            btn6.SetActive(false);
         }
     }
 }
